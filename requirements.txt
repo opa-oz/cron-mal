@@ -3,3 +3,4 @@ jsonlines~=4.0.0
 opyls~=0.0.6
 malparser~=1.1.12
 tqdm~=4.66.2
+psycopg2-binary~=2.9.9
