@@ -1,6 +1,7 @@
 import decimal
 import json
 import os
+import shutil
 import time
 from datetime import datetime, date
 
@@ -164,6 +165,8 @@ def parse():
 
             if len(chunk) > 0:
                 insert_into_db(conn, chunk)
+
+    shutil.rmtree(base_dir)
 
 
 if __name__ == "__main__":
