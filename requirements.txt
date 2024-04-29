@@ -1,0 +1,5 @@
+python-dotenv~=1.0.1
+jsonlines~=4.0.0
+opyls~=0.0.6
+malparser~=1.1.12
+tqdm~=4.66.2
